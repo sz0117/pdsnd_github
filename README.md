@@ -43,6 +43,21 @@ py bikeshare.py
 ```
 The program will execute :ghost:
 
+
+### Contributing:
+**Step 1**
+- Option 1
+  - Fork this repo
+- Option 2
+  - Clone this repo to your local machine using `https://github.com/sz0117/pdsnd_github.git`
+
+**Step 2**
+- Hack Away!
+
+**Step 3**
+- Create a new pull request using `https://github.com/sz0117/pdsnd_github/compare/`
+
+
 ### Credit:
 For more information on this project, please visit [Udacity School of Data Science Programs](https://www.udacity.com/school-of-data-science).
 
