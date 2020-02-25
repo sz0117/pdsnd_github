@@ -17,11 +17,12 @@ The bikeshare.py file is set up as a script that takes in raw input to create an
 The answers to the questions above will determine the city and timeframe on which data analysis will be performed. After filtering the dataset, users will see the statistical result of the data, and choose to start again or exit.
 
 ### Contents:
-Main File | Dataset Files
------------- | -------------
-bikeshare.py | [chicago.csv](https://www.dropbox.com/s/opb2jtcy791u13z/chicago.csv?dl=0)
- | [new_york_city.csv](https://www.dropbox.com/s/b9wldsh8fkqbjgh/new_york_city.csv?dl=0)
- | [washington.csv](https://www.dropbox.com/s/ncufctuhls7jgi6/washington.csv?dl=0)
+| Main File | Dataset Files |
+| :---         |     :---:      |
+| bikeshare.py | [chicago.csv](https://www.dropbox.com/s/opb2jtcy791u13z/chicago.csv?dl=0)   |
+|              | [new_york_city.csv](https://www.dropbox.com/s/b9wldsh8fkqbjgh/new_york_city.csv?dl=0)      |
+|              | [washington.csv](https://www.dropbox.com/s/ncufctuhls7jgi6/washington.csv?dl=0)      |
+
 
 ### Requirements:
 - [Python](https://www.python.org/downloads/)
