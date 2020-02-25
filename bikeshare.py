@@ -2,7 +2,7 @@ import time
 import pandas as pd
 import numpy as np
 
-CITY_DATA = { 'chicago': 'chicago.csv',
+CITY_DATASETS = { 'chicago': 'chicago.csv',
               'new york': 'new_york_city.csv',
               'washington': 'washington.csv' }
 
@@ -63,7 +63,7 @@ def load_data(city, month, day):
     Returns:
         df - Pandas DataFrame containing city data filtered by month and day
     """
-    df=pd.read_csv(CITY_DATA[city])
+    df=pd.read_csv(CITY_DATASETS[city])
     df['Start Time']=pd.to_datetime(df['Start Time'])
     df['month']=df['Start Time'].dt.month
     df['day_of_week']=df['Start Time'].dt.weekday
